@@ -9,7 +9,7 @@ export function MyForm({initialIsAuthenticated}) {
     if(values.password != '' && values.email != ''){
       setAuthentificated(!isAuthenticated);
     }else{
-      alert('Se encuentras vacios los campos');
+      alert('Se encuentra algún campo vacio');
     }
   }
 
