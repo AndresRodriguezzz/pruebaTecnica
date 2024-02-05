@@ -1,14 +1,16 @@
-import { useState } from 'react'
 import './App.css'
+import { MyForm } from './components/form';
+import { Layout } from './components/layout';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-  <h1 className='text-3xl'>hola</h1>
-    </>
-  )
+  <>
+  <Layout>
+    <MyForm/>
+  </Layout>
+  </>
+  );
 }
 
 export default App
