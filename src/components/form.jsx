@@ -1,9 +1,9 @@
 
 import { useState } from "react";
 
-export function MyForm({initialIsAuthenticated}) {
+export function MyForm({initialIsAuthenticated=true}) {
 
-  const [isAuthenticated, setAuthentificated]=useState(initialIsAuthenticated)
+  const [isAuthenticated, setAuthentificated] = useState(initialIsAuthenticated);
 
   const authClick = () => {
     if(values.password != '' && values.email != ''){
@@ -29,6 +29,7 @@ export function MyForm({initialIsAuthenticated}) {
   function handleChange(evt) {
 
     const { target } = evt;
+
     const { name, value } = target;
 
     const newValues = {

@@ -1,6 +1,5 @@
-import { useState } from "react";
 
-export function Layout({children, info}){
+export function Layout({children}){
   
   return (
     <div className="bg-gray-200 p-4 md:p-8 lg:p-12 xl:p-16 h-screen">

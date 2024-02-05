@@ -7,7 +7,7 @@ function App() {
   return (
   <>
   <Layout>
-    <MyForm isAuthenticated={false}/>
+    <MyForm/>
   </Layout>
   </>
   );
