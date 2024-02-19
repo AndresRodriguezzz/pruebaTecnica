@@ -10,6 +10,8 @@ function App() {
   const [isEditing, setIsEditing] = useState(false); // Estado para rastrear si se está editando
   const [editMode, setEditMode] = useState(false); // Estado para rastrear si está en modo de edición
   const [selectedUser, setSelectedUser] = useState(null);
+ const [dateSet, setDate] = useState(false);
+
 
   useEffect(() => {
     const fetchData = async () => {
