@@ -13,6 +13,10 @@ function App() {
  const [dateSet, setDate] = useState(false);
 
 
+const dataConvert = (users) =>{
+  users.map((user)=> () )
+} 
+
   useEffect(() => {
     const fetchData = async () => {
       try {
